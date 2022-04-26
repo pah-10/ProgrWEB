@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <style>
+            *{
+                margin: 0 0 0 10;
+                font-family: Helvetica, sans-serif;
+                text-align: center;
+            }
+
+            table{
+                text-align: center;
+                width: 100%;
+            }
+
+            #alunos {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            #alunos th, #alunos td{
+                border: 1px solid #50DCD3;
+                padding: 8px;
+            }
+
+            #alunos thead{
+                color: white;
+                background-color: #50DCD3;
+            }
+
+            #alunos tr:hover {
+                color: white;
+                background-color: grey;
+            }
+        </style>
+            
+    </head>
+    <body>
+        <br>
+        <h1>Tabela</h1>
+        <br> 
+
+        <table id="alunos">
+            <thead>
+                <tr>
+                    <th>RA</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>11231321213213216</td>
+                    <td>Ananaa ananan anana </td>
+                    <td>ananan@nana.com</td>
+                </tr>
+                <tr>
+                    <td>0000000000000000</td>
+                    <td>bababab babababab babababa </td>
+                    <td>ananan@nana.com</td>
+                </tr>
+                <tr>
+                    <td>89899899899899898</td>
+                    <td>caca ca cacacaac cacac </td>
+                    <td>ananan@nana.com</td>
+                </tr>
+                <tr>
+                    <td>89899899899899898</td>
+                    <td>caca ca cacacaac cacac </td>
+                    <td>ananan@nana.com</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total de alunos</td>
+                    <td>4</td>
+                </tr>
+            </tfoot>
+        </table>
+        
+        
+    </body>
+</html>
