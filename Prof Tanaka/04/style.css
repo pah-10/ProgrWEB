@@ -1,5 +1,13 @@
+/*configurações padrões do navegador*/
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 h1 {
-    color: rgb(65, 31, 31);
+    color: red;
 }
 
 h2 {
@@ -23,5 +31,9 @@ img {
 
 /*classe*/
 .teste {
+    color: red;
     background-color:black;
+    font-family: courier;
+    font-size: 150%;
+    text-align: center;
 }
