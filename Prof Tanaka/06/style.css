@@ -1,0 +1,43 @@
+/*configurações padrões do navegador*/
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    color: red;
+}
+
+/*id*/
+#ads {
+    color:blue;
+}
+
+#logo {
+    width: 255px;
+    height: 255px;
+}
+
+#div{
+	background-color: purple;
+}
+
+/*classe*/
+.teste {
+    color: red;
+    background-color:black;
+    font-family: courier;
+    font-size: 150%;
+    text-align: center;
+}
